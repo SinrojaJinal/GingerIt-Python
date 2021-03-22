@@ -1,0 +1,7 @@
+version : '3'
+
+services:
+  ginger:
+    build: ./ginger
+    ports:
+     - 8001:8001
